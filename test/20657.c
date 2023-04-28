@@ -5,6 +5,7 @@
 #include <openssl/pem.h>
 #include <openssl/bio.h>
 #include <openssl/provider.h>
+#include <openssl/trace.h>
 
 /* BEGIN COPY */
 /* The following is extracted from https://github.com/junaruga/openssl/raw/41bc792df2cf54660264bd6fc6368044f2877e99/ext/openssl/ossl_pkey.c and modified to get rid of Ruby specific stuff */
@@ -136,6 +137,10 @@ static int print_provider(OSSL_PROVIDER *prov, void *unused)
 
 int main(int argc, char *argv[])
 {
+    /* Trace */
+    BIO *trace_bio = BIO_new_fp(stderr, BIO_NOCLOSE | BIO_FP_TEXT);
+    OSSL_trace_set_channel(OSSL_TRACE_CATEGORY_DECODER, trace_bio);
+
     static char data[1024 * 1024];
     EVP_PKEY *pkey;
 
