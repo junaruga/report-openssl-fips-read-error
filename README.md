@@ -34,8 +34,10 @@ $ OPENSSL_CONF_INCLUDE=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d403
   default
 [DEBUG] FIPS mode enabled: 0
 [DEBUG] data_size: 3272
-[DEBUG] OSSL_DECODER_from_bio PEM failed.
-[DEBUG] Got a pkey! 0x10ddcf0
+[DEBUG] Calling OSSL_DECODER_from_bio.
+[DEBUG] Calling OSSL_DECODER_CTX_set_selection with PEM and EVP_PKEY_KEYPAIR.
+[DEBUG] OSSL_DECODER_from_bio PEM success.
+[DEBUG] Got a pkey! 0x1e08cf0
 [DEBUG] It's held by the provider default
 [DEBUG] ossl_membio2str buf->data:
 -----BEGIN PUBLIC KEY-----
@@ -69,7 +71,9 @@ $ OPENSSL_CONF=$(pwd)/openssl_fips.cnf \
   base
 [DEBUG] FIPS mode enabled: 1
 [DEBUG] data_size: 3272
-4067B53FF37F0000:error:1E08010C:DECODER routines:OSSL_DECODER_from_bio:unsupported:crypto/encode_decode/decoder_lib.c:102:No supported data to decode. Input type: DER
+[DEBUG] Calling OSSL_DECODER_from_bio.
+[DEBUG] Calling OSSL_DECODER_CTX_set_selection with PEM and EVP_PKEY_KEYPAIR.
+[DEBUG] BIO_eof break.
 [DEBUG] Failed to get the pkey.
 [DEBUG] Could not parse a PKey
 ```

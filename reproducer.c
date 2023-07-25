@@ -32,6 +32,7 @@ ossl_pkey_read_generic(BIO *bio, char *pass)
     }
 
     /* First check DER */
+    fprintf(stderr, "[DEBUG] Calling OSSL_DECODER_from_bio.\n");
     if (OSSL_DECODER_from_bio(dctx, bio) == 1) {
         fprintf(stderr, "[DEBUG] OSSL_DECODER_from_bio DER failed.\n");
         goto out;
@@ -44,36 +45,24 @@ ossl_pkey_read_generic(BIO *bio, char *pass)
         goto out;
     }
 
+    fprintf(stderr, "[DEBUG] Calling OSSL_DECODER_CTX_set_selection with PEM and EVP_PKEY_KEYPAIR.\n");
     OSSL_DECODER_CTX_set_selection(dctx, EVP_PKEY_KEYPAIR);
-    while (1) {
-        if (OSSL_DECODER_from_bio(dctx, bio) == 1) {
-            fprintf(stderr, "[DEBUG] OSSL_DECODER_from_bio PEM failed.\n");
-            goto out;
-        }
-        ERR_print_errors_fp(stderr);
-        if (BIO_eof(bio))
-            break;
-        pos2 = BIO_tell(bio);
-        if (pos2 < 0 || pos2 <= pos)
-            break;
-        ERR_clear_error();       /* Maybe print? */
-        pos = pos2;
-    }
 
-    BIO_reset(bio);
-    OSSL_DECODER_CTX_set_selection(dctx, 0);
     while (1) {
         if (OSSL_DECODER_from_bio(dctx, bio) == 1) {
-            fprintf(stderr, "[DEBUG] OSSL_DECODER_CTX_new_for_pkey PEM 2 failed.\n");
+            fprintf(stderr, "[DEBUG] OSSL_DECODER_from_bio PEM success.\n");
             goto out;
         }
-        ERR_print_errors_fp(stderr);
-        if (BIO_eof(bio))
+        if (BIO_eof(bio)) {
+            fprintf(stderr, "[DEBUG] BIO_eof break.\n");
             break;
+        }
         pos2 = BIO_tell(bio);
-        if (pos2 < 0 || pos2 <= pos)
+        if (pos2 < 0 || pos2 <= pos) {
+            fprintf(stderr, "[DEBUG] BIO_tell break.\n");
             break;
-        ERR_clear_error();       /* Maybe print? */
+        }
+        ERR_clear_error();
         pos = pos2;
     }
 
