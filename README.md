@@ -2,47 +2,37 @@
 
 This repository is to manage the files related to [this issue](https://github.com/openssl/openssl/issues/20657) on OpenSSL project.
 
-The log files were created by the command below.
+## A test program
 
-## FIPS mode
+The reproducing program was downloaded from the <https://gist.github.com/levitte/7a27cebdb9537ff0a59641c9a5bed53d>.
 
-```
-$ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
-  OPENSSL_CONF=/home/jaruga/.local/openssl-3.0.8-fips-debug/ssl/openssl_fips.cnf \
-  ltrace -ttt -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& fips_ltrace_ttt.log
-```
+### Reproducing steps
+
+Create `key.pem` if you want to create newly.
 
 ```
-$ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
-  OPENSSL_CONF=/home/jaruga/.local/openssl-3.0.8-fips-debug/ssl/openssl_fips.cnf \
-  ltrace -ttt -S -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& fips_ltrace_ttt_S.log
+$ openssl genrsa -out key.pem 4096
 ```
 
-```
-$ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
-  OPENSSL_CONF=/home/jaruga/.local/openssl-3.0.8-fips-debug/ssl/openssl_fips.cnf \
-  strace -f \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& fips_strace_f.log
-```
-
-## Non-FIPS mode
+Run the commands below.
 
 ```
-$ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-debug/lib/ \
-  ltrace -ttt -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& non_fips_ltrace_ttt.log
+$ gcc \
+  -I /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/include \
+  -L /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
+  -o 20657 20657.c -lcrypto
+
+$ OPENSSL_CONF=$(pwd)/openssl_fips.cnf \
+  OPENSSL_CONF_INCLUDE=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/ssl \
+  OPENSSL_MODULES=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib/ossl-modules \
+  LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
+  ./20657 key.pem
+Loaded providers:
+  fips
+  base
+4097042C6A7F0000:error:00800000:unknown library:main:unknown library:20657.c:153:Could not read PKey
 ```
 
-```
-$ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-debug/lib/ \
-  ltrace -ttt -S -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& non_fips_ltrace_ttt_S.log
-```
+## License
 
-```
-$ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-debug/lib/ \
-  strace -f \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& non_fips_strace_f.log
-```
+The license belongs to the author of the linked page above, @levitte - Richard Levitte.
