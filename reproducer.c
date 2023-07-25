@@ -137,7 +137,6 @@ int main(int argc, char *argv[])
     printf("[DEBUG] It's held by the provider %s\n",
            OSSL_PROVIDER_get0_name(EVP_PKEY_get0_provider(pkey)));
 
-    /* ossl_pkey_export_spki(pkey, 0); */
     /* Export Pkey. */
     bio = BIO_new(BIO_s_mem());
     if (!bio) {
