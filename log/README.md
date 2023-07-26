@@ -30,14 +30,14 @@ $ OPENSSL_CONF_INCLUDE=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d403
 $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
   OPENSSL_CONF=/home/jaruga/.local/openssl-3.0.8-fips-debug/ssl/openssl_fips.cnf \
   ltrace -ttt -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& fips_ltrace_ttt.log
+  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& ltrace_ttt_fips.log
 ```
 
 ```
 $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
   OPENSSL_CONF=/home/jaruga/.local/openssl-3.0.8-fips-debug/ssl/openssl_fips.cnf \
   ltrace -ttt -S -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& fips_ltrace_ttt_S.log
+  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& ltrace_ttt_S_fips.log
 ```
 
 ### Non-FIPS case
@@ -45,13 +45,13 @@ $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
 ```
 $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-debug/lib/ \
   ltrace -ttt -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& non_fips_ltrace_ttt.log
+  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& ltrace_ttt_non_fips.log
 ```
 
 ```
 $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-debug/lib/ \
   ltrace -ttt -S -f -l openssl.so -l libssl.so.3 -l libcrypto.so.3 \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& non_fips_ltrace_ttt_S.log
+  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& ltrace_ttt_S_non_fips.log
 ```
 
 ## strace
@@ -62,7 +62,7 @@ $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-debug/lib/ \
 $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
   OPENSSL_CONF=/home/jaruga/.local/openssl-3.0.8-fips-debug/ssl/openssl_fips.cnf \
   strace -f \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& fips_strace_f.log
+  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& strace_f_fips.log
 ```
 
 ### Non-FIPS case
@@ -70,5 +70,5 @@ $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-fips-debug/lib/ \
 ```
 $ LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.0.8-debug/lib/ \
   strace -f \
-  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& non_fips_strace_f.log
+  ruby -I lib -e "require 'openssl'; OpenSSL::PKey.read(File.read('key.pem'))" >& strace_f_non_fips.log
 ```
