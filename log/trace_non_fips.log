@@ -1,0 +1,1188 @@
+(ctx 0x1c89b80) Looking for <NULL> decoders with selection 0
+    input type: DER, input structure: <NULL>
+(ctx 0x1c89b80) Looking for decoders producing keys of any type from DER
+(ctx 0x1c89b80) Checking out decoder 0x1c992d0:
+    RSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c992d0:
+    RSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c909b0 for decoder 0x1c992d0
+    RSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c99510:
+    RSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c99510:
+    RSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9a7b0 for decoder 0x1c99510
+    RSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c996a0:
+    RSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c996a0:
+    RSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Added decoder instance 0x1c9a8c0 for decoder 0x1c996a0
+    RSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c997e0:
+    RSA with provider=default,fips=yes,input=der,structure=rsa
+(ctx 0x1c89b80) Checking out decoder 0x1c997e0:
+    RSA with provider=default,fips=yes,input=der,structure=rsa
+(ctx 0x1c89b80) Added decoder instance 0x1c9a910 for decoder 0x1c997e0
+    RSA with provider=default,fips=yes,input=der,structure=rsa
+(ctx 0x1c89b80) Checking out decoder 0x1c99e30:
+    RSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c89b80) Checking out decoder 0x1c99e30:
+    RSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c89b80) Added decoder instance 0x1c9a960 for decoder 0x1c99e30
+    RSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c89b80) Checking out decoder 0x1c99f80:
+    RSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c89b80) Checking out decoder 0x1c99f80:
+    RSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c89b80) Added decoder instance 0x1c9a5b0 for decoder 0x1c99f80
+    RSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c89b80) Checking out decoder 0x1c878a0:
+    DH with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c878a0:
+    DH with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9aa10 for decoder 0x1c878a0
+    DH with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c88fd0:
+    DH with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c88fd0:
+    DH with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9aab0 for decoder 0x1c88fd0
+    DH with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c85dd0:
+    DH with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c85dd0:
+    DH with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Added decoder instance 0x1c9ab00 for decoder 0x1c85dd0
+    DH with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c95d00:
+    DH with provider=default,fips=yes,input=der,structure=dh
+(ctx 0x1c89b80) Checking out decoder 0x1c95d00:
+    DH with provider=default,fips=yes,input=der,structure=dh
+(ctx 0x1c89b80) Added decoder instance 0x1c9ab50 for decoder 0x1c95d00
+    DH with provider=default,fips=yes,input=der,structure=dh
+(ctx 0x1c89b80) Checking out decoder 0x1c966f0:
+    DSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c966f0:
+    DSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9ac20 for decoder 0x1c966f0
+    DSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c96930:
+    DSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c96930:
+    DSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9ac70 for decoder 0x1c96930
+    DSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c96ac0:
+    DSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c96ac0:
+    DSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Added decoder instance 0x1c9acc0 for decoder 0x1c96ac0
+    DSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c96c00:
+    DSA with provider=default,fips=yes,input=der,structure=dsa
+(ctx 0x1c89b80) Checking out decoder 0x1c96c00:
+    DSA with provider=default,fips=yes,input=der,structure=dsa
+(ctx 0x1c89b80) Added decoder instance 0x1c9ad10 for decoder 0x1c96c00
+    DSA with provider=default,fips=yes,input=der,structure=dsa
+(ctx 0x1c89b80) Checking out decoder 0x1c96f00:
+    DSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c89b80) Checking out decoder 0x1c96f00:
+    DSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c89b80) Added decoder instance 0x1c9ad60 for decoder 0x1c96f00
+    DSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c89b80) Checking out decoder 0x1c97110:
+    DSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c89b80) Checking out decoder 0x1c97110:
+    DSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c89b80) Added decoder instance 0x1c9ae70 for decoder 0x1c97110
+    DSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c89b80) Checking out decoder 0x1c97320:
+    EC with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97320:
+    EC with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9aec0 for decoder 0x1c97320
+    EC with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97580:
+    EC with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97580:
+    EC with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9af10 for decoder 0x1c97580
+    EC with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97710:
+    EC with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c97710:
+    EC with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Added decoder instance 0x1c9af60 for decoder 0x1c97710
+    EC with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c97850:
+    EC with provider=default,fips=yes,input=der,structure=ec
+(ctx 0x1c89b80) Checking out decoder 0x1c97850:
+    EC with provider=default,fips=yes,input=der,structure=ec
+(ctx 0x1c89b80) Added decoder instance 0x1c9afb0 for decoder 0x1c97850
+    EC with provider=default,fips=yes,input=der,structure=ec
+(ctx 0x1c89b80) Checking out decoder 0x1c99a60:
+    RSA-PSS with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c99a60:
+    RSA-PSS with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b000 for decoder 0x1c99a60
+    RSA-PSS with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c99ca0:
+    RSA-PSS with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c99ca0:
+    RSA-PSS with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b050 for decoder 0x1c99ca0
+    RSA-PSS with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c95f60:
+    DHX with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c95f60:
+    DHX with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b0a0 for decoder 0x1c95f60
+    DHX with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c961a0:
+    DHX with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c961a0:
+    DHX with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b210 for decoder 0x1c961a0
+    DHX with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c96330:
+    DHX with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c96330:
+    DHX with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Added decoder instance 0x1c9b260 for decoder 0x1c96330
+    DHX with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c96470:
+    DHX with provider=default,fips=yes,input=der,structure=dhx
+(ctx 0x1c89b80) Checking out decoder 0x1c96470:
+    DHX with provider=default,fips=yes,input=der,structure=dhx
+(ctx 0x1c89b80) Added decoder instance 0x1c9b2b0 for decoder 0x1c96470
+    DHX with provider=default,fips=yes,input=der,structure=dhx
+(ctx 0x1c89b80) Checking out decoder 0x1c98300:
+    X25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98300:
+    X25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b300 for decoder 0x1c98300
+    X25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98550:
+    X25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98550:
+    X25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b350 for decoder 0x1c98550
+    X25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c986e0:
+    X448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c986e0:
+    X448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b3a0 for decoder 0x1c986e0
+    X448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98930:
+    X448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98930:
+    X448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b3f0 for decoder 0x1c98930
+    X448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97ac0:
+    ED25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97ac0:
+    ED25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b440 for decoder 0x1c97ac0
+    ED25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97d90:
+    ED25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97d90:
+    ED25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b490 for decoder 0x1c97d90
+    ED25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97f20:
+    ED448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c97f20:
+    ED448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b4e0 for decoder 0x1c97f20
+    ED448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98170:
+    ED448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98170:
+    ED448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b530 for decoder 0x1c98170
+    ED448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98ac0:
+    SM2 with provider=default,fips=no,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98ac0:
+    SM2 with provider=default,fips=no,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b580 for decoder 0x1c98ac0
+    SM2 with provider=default,fips=no,input=der,structure=PrivateKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98de0:
+    SM2 with provider=default,fips=no,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c98de0:
+    SM2 with provider=default,fips=no,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b5d0 for decoder 0x1c98de0
+    SM2 with provider=default,fips=no,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c990a0:
+    SM2 with provider=default,fips=no,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c990a0:
+    SM2 with provider=default,fips=no,input=der,structure=type-specific
+(ctx 0x1c89b80) Added decoder instance 0x1c9b7f0 for decoder 0x1c990a0
+    SM2 with provider=default,fips=no,input=der,structure=type-specific
+(ctx 0x1c89b80) Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+(ctx 0x1c89b80) Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+(ctx 0x1c89b80) Got 37 decoders producing keys
+(ctx 0x1c89b80) Looking for extra decoders
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b850 for decoder 0x1c9a0a0
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+(ctx 0x1c89b80) Added decoder instance 0x1c9b880 for decoder 0x1c96cf0
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: input type doesn't match output type
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+(ctx 0x1c89b80) Added decoder instance 0x1c9bae0 for decoder 0x1c9a350
+    DER with provider=default,fips=yes,input=pem
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [0] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a0a0:
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c9a350:
+    DER with provider=default,fips=yes,input=pem
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) [1] Checking out decoder 0x1c96cf0:
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+    REJECTED: already exists in the chain
+(ctx 0x1c89b80) Got 40 decoders
+[DEBUG] Calling OSSL_DECODER_from_bio.
+(ctx 0x1c9bb50) starting to walk the decoder chain
+(ctx 0x1c9bb50) > [39] Considering decoder instance 0x1c9c940 (decoder 0x1c9a350):
+    DER with provider=default,fips=yes,input=pem
+(ctx 0x1c9bb50) > [39] the start input type 'DER' doesn't match the input type of the considered decoder, skipping...
+(ctx 0x1c9bb50) > [38] Considering decoder instance 0x1c9c8f0 (decoder 0x1c96cf0):
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+(ctx 0x1c9bb50) > [38] Running decoder instance 0x1c9c8f0
+(ctx 0x1c9bb50) > [38] Running decoder instance 0x1c9c8f0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [37] Considering decoder instance 0x1c9c8a0 (decoder 0x1c9a0a0):
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [37] Running decoder instance 0x1c9c8a0
+(ctx 0x1c9bb50) > [37] Running decoder instance 0x1c9c8a0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [36] Considering decoder instance 0x1c9c850 (decoder 0x1c990a0):
+    SM2 with provider=default,fips=no,input=der,structure=type-specific
+(ctx 0x1c9bb50) > [36] Running decoder instance 0x1c9c850
+(ctx 0x1c9bb50) > [36] Running decoder instance 0x1c9c850 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [35] Considering decoder instance 0x1c9c800 (decoder 0x1c98de0):
+    SM2 with provider=default,fips=no,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [35] Running decoder instance 0x1c9c800
+(ctx 0x1c9bb50) > [35] Running decoder instance 0x1c9c800 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [34] Considering decoder instance 0x1c9c7b0 (decoder 0x1c98ac0):
+    SM2 with provider=default,fips=no,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [34] Running decoder instance 0x1c9c7b0
+(ctx 0x1c9bb50) > [34] Running decoder instance 0x1c9c7b0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [33] Considering decoder instance 0x1c9c760 (decoder 0x1c98170):
+    ED448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [33] Running decoder instance 0x1c9c760
+(ctx 0x1c9bb50) > [33] Running decoder instance 0x1c9c760 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [32] Considering decoder instance 0x1c9c710 (decoder 0x1c97f20):
+    ED448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [32] Running decoder instance 0x1c9c710
+(ctx 0x1c9bb50) > [32] Running decoder instance 0x1c9c710 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [31] Considering decoder instance 0x1c9c6c0 (decoder 0x1c97d90):
+    ED25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [31] Running decoder instance 0x1c9c6c0
+(ctx 0x1c9bb50) > [31] Running decoder instance 0x1c9c6c0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [30] Considering decoder instance 0x1c9c670 (decoder 0x1c97ac0):
+    ED25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [30] Running decoder instance 0x1c9c670
+(ctx 0x1c9bb50) > [30] Running decoder instance 0x1c9c670 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [29] Considering decoder instance 0x1c9c620 (decoder 0x1c98930):
+    X448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [29] Running decoder instance 0x1c9c620
+(ctx 0x1c9bb50) > [29] Running decoder instance 0x1c9c620 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [28] Considering decoder instance 0x1c9c5d0 (decoder 0x1c986e0):
+    X448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [28] Running decoder instance 0x1c9c5d0
+(ctx 0x1c9bb50) > [28] Running decoder instance 0x1c9c5d0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [27] Considering decoder instance 0x1c9c580 (decoder 0x1c98550):
+    X25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [27] Running decoder instance 0x1c9c580
+(ctx 0x1c9bb50) > [27] Running decoder instance 0x1c9c580 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [26] Considering decoder instance 0x1c9c530 (decoder 0x1c98300):
+    X25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [26] Running decoder instance 0x1c9c530
+(ctx 0x1c9bb50) > [26] Running decoder instance 0x1c9c530 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [25] Considering decoder instance 0x1c9c4e0 (decoder 0x1c96470):
+    DHX with provider=default,fips=yes,input=der,structure=dhx
+(ctx 0x1c9bb50) > [25] Running decoder instance 0x1c9c4e0
+(ctx 0x1c9bb50) > [25] Running decoder instance 0x1c9c4e0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [24] Considering decoder instance 0x1c9c490 (decoder 0x1c96330):
+    DHX with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) > [24] Running decoder instance 0x1c9c490
+(ctx 0x1c9bb50) > [24] Running decoder instance 0x1c9c490 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [23] Considering decoder instance 0x1c9c440 (decoder 0x1c961a0):
+    DHX with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [23] Running decoder instance 0x1c9c440
+(ctx 0x1c9bb50) > [23] Running decoder instance 0x1c9c440 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [22] Considering decoder instance 0x1c9c3f0 (decoder 0x1c95f60):
+    DHX with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [22] Running decoder instance 0x1c9c3f0
+(ctx 0x1c9bb50) > [22] Running decoder instance 0x1c9c3f0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [21] Considering decoder instance 0x1c9c3a0 (decoder 0x1c99ca0):
+    RSA-PSS with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [21] Running decoder instance 0x1c9c3a0
+(ctx 0x1c9bb50) > [21] Running decoder instance 0x1c9c3a0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [20] Considering decoder instance 0x1c9c350 (decoder 0x1c99a60):
+    RSA-PSS with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [20] Running decoder instance 0x1c9c350
+(ctx 0x1c9bb50) > [20] Running decoder instance 0x1c9c350 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [19] Considering decoder instance 0x1c9c300 (decoder 0x1c97850):
+    EC with provider=default,fips=yes,input=der,structure=ec
+(ctx 0x1c9bb50) > [19] Running decoder instance 0x1c9c300
+(ctx 0x1c9bb50) > [19] Running decoder instance 0x1c9c300 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [18] Considering decoder instance 0x1c9c2b0 (decoder 0x1c97710):
+    EC with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) > [18] Running decoder instance 0x1c9c2b0
+(ctx 0x1c9bb50) > [18] Running decoder instance 0x1c9c2b0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [17] Considering decoder instance 0x1c9c260 (decoder 0x1c97580):
+    EC with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [17] Running decoder instance 0x1c9c260
+(ctx 0x1c9bb50) > [17] Running decoder instance 0x1c9c260 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [16] Considering decoder instance 0x1c9c210 (decoder 0x1c97320):
+    EC with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [16] Running decoder instance 0x1c9c210
+(ctx 0x1c9bb50) > [16] Running decoder instance 0x1c9c210 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [15] Considering decoder instance 0x1c9c1c0 (decoder 0x1c97110):
+    DSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c9bb50) > [15] the start input type 'DER' doesn't match the input type of the considered decoder, skipping...
+(ctx 0x1c9bb50) > [14] Considering decoder instance 0x1c9c170 (decoder 0x1c96f00):
+    DSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c9bb50) > [14] the start input type 'DER' doesn't match the input type of the considered decoder, skipping...
+(ctx 0x1c9bb50) > [13] Considering decoder instance 0x1c9c120 (decoder 0x1c96c00):
+    DSA with provider=default,fips=yes,input=der,structure=dsa
+(ctx 0x1c9bb50) > [13] Running decoder instance 0x1c9c120
+(ctx 0x1c9bb50) > [13] Running decoder instance 0x1c9c120 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [12] Considering decoder instance 0x1c9c0d0 (decoder 0x1c96ac0):
+    DSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) > [12] Running decoder instance 0x1c9c0d0
+(ctx 0x1c9bb50) > [12] Running decoder instance 0x1c9c0d0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [11] Considering decoder instance 0x1c9c080 (decoder 0x1c96930):
+    DSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [11] Running decoder instance 0x1c9c080
+(ctx 0x1c9bb50) > [11] Running decoder instance 0x1c9c080 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [10] Considering decoder instance 0x1c9c030 (decoder 0x1c966f0):
+    DSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [10] Running decoder instance 0x1c9c030
+(ctx 0x1c9bb50) > [10] Running decoder instance 0x1c9c030 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [9] Considering decoder instance 0x1c9bfe0 (decoder 0x1c95d00):
+    DH with provider=default,fips=yes,input=der,structure=dh
+(ctx 0x1c9bb50) > [9] Running decoder instance 0x1c9bfe0
+(ctx 0x1c9bb50) > [9] Running decoder instance 0x1c9bfe0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [8] Considering decoder instance 0x1c9bf90 (decoder 0x1c85dd0):
+    DH with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) > [8] Running decoder instance 0x1c9bf90
+(ctx 0x1c9bb50) > [8] Running decoder instance 0x1c9bf90 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [7] Considering decoder instance 0x1c9bf40 (decoder 0x1c88fd0):
+    DH with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [7] Running decoder instance 0x1c9bf40
+(ctx 0x1c9bb50) > [7] Running decoder instance 0x1c9bf40 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [6] Considering decoder instance 0x1c9bef0 (decoder 0x1c878a0):
+    DH with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [6] Running decoder instance 0x1c9bef0
+(ctx 0x1c9bb50) > [6] Running decoder instance 0x1c9bef0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [5] Considering decoder instance 0x1c9bea0 (decoder 0x1c99f80):
+    RSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c9bb50) > [5] the start input type 'DER' doesn't match the input type of the considered decoder, skipping...
+(ctx 0x1c9bb50) > [4] Considering decoder instance 0x1c9be50 (decoder 0x1c99e30):
+    RSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c9bb50) > [4] the start input type 'DER' doesn't match the input type of the considered decoder, skipping...
+(ctx 0x1c9bb50) > [3] Considering decoder instance 0x1c9be00 (decoder 0x1c997e0):
+    RSA with provider=default,fips=yes,input=der,structure=rsa
+(ctx 0x1c9bb50) > [3] Running decoder instance 0x1c9be00
+(ctx 0x1c9bb50) > [3] Running decoder instance 0x1c9be00 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [2] Considering decoder instance 0x1c9bdb0 (decoder 0x1c996a0):
+    RSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) > [2] Running decoder instance 0x1c9bdb0
+(ctx 0x1c9bb50) > [2] Running decoder instance 0x1c9bdb0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [1] Considering decoder instance 0x1c9bd60 (decoder 0x1c99510):
+    RSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) > [1] Running decoder instance 0x1c9bd60
+(ctx 0x1c9bb50) > [1] Running decoder instance 0x1c9bd60 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) > [0] Considering decoder instance 0x1c9bd10 (decoder 0x1c992d0):
+    RSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) > [0] Running decoder instance 0x1c9bd10
+(ctx 0x1c9bb50) > [0] Running decoder instance 0x1c9bd10 => 1 (recursed further: no, construct called: no)
+[DEBUG] Calling OSSL_DECODER_CTX_set_selection with PEM and EVP_PKEY_KEYPAIR.
+(ctx 0x1c9bb50) starting to walk the decoder chain
+(ctx 0x1c9bb50) > [39] Considering decoder instance 0x1c9c940 (decoder 0x1c9a350):
+    DER with provider=default,fips=yes,input=pem
+(ctx 0x1c9bb50) > [39] Running decoder instance 0x1c9c940
+(ctx 0x1c9bb50) >> Running constructor
+(ctx 0x1c9bb50) >> Running constructor => 0
+(ctx 0x1c9bb50) >> incoming from previous decoder (0x1c9a350):
+    data type: <NULL>, data structure: PrivateKeyInfo
+(ctx 0x1c9bb50) >> [38] Considering decoder instance 0x1c9c8f0 (decoder 0x1c96cf0):
+    DER with provider=default,fips=yes,input=der,structure=EncryptedPrivateKeyInfo
+(ctx 0x1c9bb50) >> [38] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [37] Considering decoder instance 0x1c9c8a0 (decoder 0x1c9a0a0):
+    DER with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [37] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [36] Considering decoder instance 0x1c9c850 (decoder 0x1c990a0):
+    SM2 with provider=default,fips=no,input=der,structure=type-specific
+(ctx 0x1c9bb50) >> [36] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [35] Considering decoder instance 0x1c9c800 (decoder 0x1c98de0):
+    SM2 with provider=default,fips=no,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [35] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [34] Considering decoder instance 0x1c9c7b0 (decoder 0x1c98ac0):
+    SM2 with provider=default,fips=no,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [34] Running decoder instance 0x1c9c7b0
+(ctx 0x1c9bb50) >> [34] Running decoder instance 0x1c9c7b0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [33] Considering decoder instance 0x1c9c760 (decoder 0x1c98170):
+    ED448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [33] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [32] Considering decoder instance 0x1c9c710 (decoder 0x1c97f20):
+    ED448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [32] Running decoder instance 0x1c9c710
+(ctx 0x1c9bb50) >> [32] Running decoder instance 0x1c9c710 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [31] Considering decoder instance 0x1c9c6c0 (decoder 0x1c97d90):
+    ED25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [31] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [30] Considering decoder instance 0x1c9c670 (decoder 0x1c97ac0):
+    ED25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [30] Running decoder instance 0x1c9c670
+(ctx 0x1c9bb50) >> [30] Running decoder instance 0x1c9c670 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [29] Considering decoder instance 0x1c9c620 (decoder 0x1c98930):
+    X448 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [29] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [28] Considering decoder instance 0x1c9c5d0 (decoder 0x1c986e0):
+    X448 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [28] Running decoder instance 0x1c9c5d0
+(ctx 0x1c9bb50) >> [28] Running decoder instance 0x1c9c5d0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [27] Considering decoder instance 0x1c9c580 (decoder 0x1c98550):
+    X25519 with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [27] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [26] Considering decoder instance 0x1c9c530 (decoder 0x1c98300):
+    X25519 with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [26] Running decoder instance 0x1c9c530
+(ctx 0x1c9bb50) >> [26] Running decoder instance 0x1c9c530 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [25] Considering decoder instance 0x1c9c4e0 (decoder 0x1c96470):
+    DHX with provider=default,fips=yes,input=der,structure=dhx
+(ctx 0x1c9bb50) >> [25] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [24] Considering decoder instance 0x1c9c490 (decoder 0x1c96330):
+    DHX with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) >> [24] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [23] Considering decoder instance 0x1c9c440 (decoder 0x1c961a0):
+    DHX with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [23] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [22] Considering decoder instance 0x1c9c3f0 (decoder 0x1c95f60):
+    DHX with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [22] Running decoder instance 0x1c9c3f0
+(ctx 0x1c9bb50) >> [22] Running decoder instance 0x1c9c3f0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [21] Considering decoder instance 0x1c9c3a0 (decoder 0x1c99ca0):
+    RSA-PSS with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [21] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [20] Considering decoder instance 0x1c9c350 (decoder 0x1c99a60):
+    RSA-PSS with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [20] Running decoder instance 0x1c9c350
+(ctx 0x1c9bb50) >> [20] Running decoder instance 0x1c9c350 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [19] Considering decoder instance 0x1c9c300 (decoder 0x1c97850):
+    EC with provider=default,fips=yes,input=der,structure=ec
+(ctx 0x1c9bb50) >> [19] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [18] Considering decoder instance 0x1c9c2b0 (decoder 0x1c97710):
+    EC with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) >> [18] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [17] Considering decoder instance 0x1c9c260 (decoder 0x1c97580):
+    EC with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [17] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [16] Considering decoder instance 0x1c9c210 (decoder 0x1c97320):
+    EC with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [16] Running decoder instance 0x1c9c210
+(ctx 0x1c9bb50) >> [16] Running decoder instance 0x1c9c210 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [15] Considering decoder instance 0x1c9c1c0 (decoder 0x1c97110):
+    DSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c9bb50) >> [15] the input type doesn't match the name of the previous decoder (0x1c9a350), skipping...
+(ctx 0x1c9bb50) >> [14] Considering decoder instance 0x1c9c170 (decoder 0x1c96f00):
+    DSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c9bb50) >> [14] the input type doesn't match the name of the previous decoder (0x1c9a350), skipping...
+(ctx 0x1c9bb50) >> [13] Considering decoder instance 0x1c9c120 (decoder 0x1c96c00):
+    DSA with provider=default,fips=yes,input=der,structure=dsa
+(ctx 0x1c9bb50) >> [13] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [12] Considering decoder instance 0x1c9c0d0 (decoder 0x1c96ac0):
+    DSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) >> [12] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [11] Considering decoder instance 0x1c9c080 (decoder 0x1c96930):
+    DSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [11] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [10] Considering decoder instance 0x1c9c030 (decoder 0x1c966f0):
+    DSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [10] Running decoder instance 0x1c9c030
+(ctx 0x1c9bb50) >> [10] Running decoder instance 0x1c9c030 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [9] Considering decoder instance 0x1c9bfe0 (decoder 0x1c95d00):
+    DH with provider=default,fips=yes,input=der,structure=dh
+(ctx 0x1c9bb50) >> [9] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [8] Considering decoder instance 0x1c9bf90 (decoder 0x1c85dd0):
+    DH with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) >> [8] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [7] Considering decoder instance 0x1c9bf40 (decoder 0x1c88fd0):
+    DH with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [7] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [6] Considering decoder instance 0x1c9bef0 (decoder 0x1c878a0):
+    DH with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [6] Running decoder instance 0x1c9bef0
+(ctx 0x1c9bb50) >> [6] Running decoder instance 0x1c9bef0 => 1 (recursed further: no, construct called: no)
+(ctx 0x1c9bb50) >> [5] Considering decoder instance 0x1c9bea0 (decoder 0x1c99f80):
+    RSA with provider=default,fips=yes,input=pvk
+(ctx 0x1c9bb50) >> [5] the input type doesn't match the name of the previous decoder (0x1c9a350), skipping...
+(ctx 0x1c9bb50) >> [4] Considering decoder instance 0x1c9be50 (decoder 0x1c99e30):
+    RSA with provider=default,fips=yes,input=msblob
+(ctx 0x1c9bb50) >> [4] the input type doesn't match the name of the previous decoder (0x1c9a350), skipping...
+(ctx 0x1c9bb50) >> [3] Considering decoder instance 0x1c9be00 (decoder 0x1c997e0):
+    RSA with provider=default,fips=yes,input=der,structure=rsa
+(ctx 0x1c9bb50) >> [3] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [2] Considering decoder instance 0x1c9bdb0 (decoder 0x1c996a0):
+    RSA with provider=default,fips=yes,input=der,structure=type-specific
+(ctx 0x1c9bb50) >> [2] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [1] Considering decoder instance 0x1c9bd60 (decoder 0x1c99510):
+    RSA with provider=default,fips=yes,input=der,structure=SubjectPublicKeyInfo
+(ctx 0x1c9bb50) >> [1] the previous decoder's data structure doesn't match the input structure of the considered decoder, skipping...
+(ctx 0x1c9bb50) >> [0] Considering decoder instance 0x1c9bd10 (decoder 0x1c992d0):
+    RSA with provider=default,fips=yes,input=der,structure=PrivateKeyInfo
+(ctx 0x1c9bb50) >> [0] Running decoder instance 0x1c9bd10
+(ctx 0x1c9bb50) >>> Running constructor
+(ctx 0x1c9bb50) >>> Running constructor => 1
+(ctx 0x1c9bb50) >> [0] Running decoder instance 0x1c9bd10 => 1 (recursed further: yes, construct called: yes)
+(ctx 0x1c9bb50) > [39] Running decoder instance 0x1c9c940 => 1 (recursed further: yes, construct called: yes)
+[DEBUG] OSSL_DECODER_from_bio PEM success.
+[DEBUG] Loaded providers:
+  default
+[DEBUG] FIPS mode enabled: 0
+[DEBUG] data_size: 3272
+Trace enabled: 1
+[DEBUG] Got a pkey! 0x1c9d970
+[DEBUG] It's held by the provider default
+[DEBUG] ossl_membio2str buf->data:
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1zjzeiqsSJW0QK7MCi6+
+UYWu5uLHrPucubpS1Y2hhfUDQAkeJeXwb/iv6arSptXRbQK5GcVHvn21t5KuraQe
+INhnBc1+O95WRPKnFjR3yUAXpoYJ8QuuIUTKAO+bh10qVapZyhDDj5/Gr3YsKgUz
+Vyr4LHckAYmLkJhQjcC1jqrXUykLbrxJh/vSJtW+3yOOYQnOb1BFUsdcA0SHjfOC
+Gn6n/D02Jgy6czhdnI7vVRpQ0YsY5AmDW7PI3JlCOFCNy2c1l3+BgyU7c8PFscZJ
+gRijZVWMujhEOaW15PEt8Dg3MG2gcb5zxNR57rj+sPbFAQtcZarDp0/1nxymEwtO
+1bAwZfVuz9s2a52denBV39zo+YAZ3dKWXxF0Dn2tJQfzpcmIJmuY4/sp5tCkVkoe
+okchoDf7BZjX+p60JwvWUmLvAk5zgbLS60jpHjT4hy6qlVnGGkItQGv8nmaU4Iw6
+zAB6Pr+YabF7qAz0NnjDQn42DDLKfCthQ93B8KKo2vfTMQpiMd2DaJBXORaBIv1W
+C1vbZwj4BIroZzYCMbENOBotXB2DR17YrTRe9TgAToHlGfEpnBFmO6K0OQcAnAAh
+KxeWZ8vQ5KiY/2w5wjpKQpNZFZYw3dTtcmOrRP7pmaVObkZ6FaD4WHOn6lKscn2L
+lZ/HcBXdBPtGJ/W/LhsqZs0CAwEAAQ==
+-----END PUBLIC KEY-----
+
