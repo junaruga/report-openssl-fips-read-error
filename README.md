@@ -12,13 +12,14 @@ Create `key.pem` if you want to create newly.
 $ openssl genrsa -out key.pem 4096
 ```
 
-Compile
+Compile. The following example shows the compile with debugging options.
 
 ```
 $ gcc \
   -I /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/include \
   -L /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
   -Wl,-rpath,/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
+  -O0 -g3 -ggdb3 -gdwarf-5 \
   -o reproducer reproducer.c -lcrypto
 ```
 
@@ -85,6 +86,16 @@ $ OPENSSL_CONF=$(pwd)/openssl_fips.cnf \
 [DEBUG] BIO_eof break.
 [DEBUG] Failed to get the pkey.
 [DEBUG] Could not parse a PKey
+```
+
+Debug with gdb. It seems setting the `LD_LIBRARY_PATH` is still necessary to see the source properly by the gdb command "l".
+
+```
+$ OPENSSL_CONF=$(pwd)/openssl_fips.cnf \
+  OPENSSL_CONF_INCLUDE=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/ssl \
+  OPENSSL_MODULES=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib/ossl-modules \
+  gdb --args ./reproducer key.pem
+(gdb) set environment LD_LIBRARY_PATH /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib
 ```
 
 ## 20657.c (original reproducing program)
