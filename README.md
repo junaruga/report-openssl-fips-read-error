@@ -18,7 +18,18 @@ Compile
 $ gcc \
   -I /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/include \
   -L /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
+  -Wl,-rpath,/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
   -o reproducer reproducer.c -lcrypto
+```
+
+Check the linked libraries.
+
+```
+$ ldd ./reproducer
+	linux-vdso.so.1 (0x00007fff6fdb1000)
+	libcrypto.so.3 => /home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib/libcrypto.so.3 (0x00007fcda4000000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007fcda3e22000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fcda466b000)
 ```
 
 ### Non-FIPS case
@@ -28,7 +39,6 @@ This is ok.
 ```
 $ OPENSSL_CONF_INCLUDE=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/ssl \
   OPENSSL_MODULES=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib/ossl-modules \
-  LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
   ./reproducer key.pem
 [DEBUG] Loaded providers:
   default
@@ -64,7 +74,6 @@ This is not ok.
 $ OPENSSL_CONF=$(pwd)/openssl_fips.cnf \
   OPENSSL_CONF_INCLUDE=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/ssl \
   OPENSSL_MODULES=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib/ossl-modules \
-  LD_LIBRARY_PATH=/home/jaruga/.local/openssl-3.2.0.dev-fips-debug-06a0d40322/lib \
   ./reproducer key.pem
 [DEBUG] Loaded providers:
   fips
