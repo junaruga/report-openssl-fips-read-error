@@ -7,6 +7,8 @@ paths = [
     '''key\.pem$''',
     # Ingore the log files containing example output.
     '''log\/[^\/]+.log$''',
+    # Ingore the log files containing example output in the old commits.
+    '''[^\/]+.log$''',
     # Ignore the c file containing the false positive comment for the private
     # key.
     '''20657\.c$''',
