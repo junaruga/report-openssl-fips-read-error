@@ -3,5 +3,11 @@ title = "gitleaks config"
 [allowlist]
 description = "global allow list"
 paths = [
-    '''key.pem''',
+    # Ignore the key.pem in the root of the repo.
+    '''key\.pem$''',
+    # Ingore the log files containing example output.
+    '''log\/[^\/]+.log$''',
+    # Ignore the c file containing the false positive comment for the private
+    # key.
+    '''20657\.c$''',
 ]
