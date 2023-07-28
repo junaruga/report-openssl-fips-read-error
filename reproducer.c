@@ -23,12 +23,12 @@ ossl_pkey_read_generic(BIO *bio, char *pass)
 {
     /* Trace */
     if (TEST_ENABLE_TRACE) {
-      BIO *trace_bio = BIO_new_fp(stderr, BIO_NOCLOSE | BIO_FP_TEXT);
-      OSSL_trace_set_channel(OSSL_TRACE_CATEGORY_DECODER, trace_bio);
-      /*
-      OSSL_trace_set_prefix(OSSL_TRACE_CATEGORY_DECODER, "BEGIN TRACE DECODER");
-      OSSL_trace_set_suffix(OSSL_TRACE_CATEGORY_DECODER, "END TRACE DECODER");
-      */
+        BIO *trace_bio = BIO_new_fp(stderr, BIO_NOCLOSE | BIO_FP_TEXT);
+        OSSL_trace_set_channel(OSSL_TRACE_CATEGORY_DECODER, trace_bio);
+        /*
+        OSSL_trace_set_prefix(OSSL_TRACE_CATEGORY_DECODER, "BEGIN TRACE DECODER");
+        OSSL_trace_set_suffix(OSSL_TRACE_CATEGORY_DECODER, "END TRACE DECODER");
+        */
     }
 
     int trace_enabled = OSSL_trace_enabled(OSSL_TRACE_CATEGORY_DECODER);
