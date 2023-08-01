@@ -21,70 +21,43 @@ static int print_provider(OSSL_PROVIDER *prov, void *unused)
 EVP_PKEY *
 ossl_pkey_read_generic(BIO *bio, char *pass)
 {
-    /* Trace */
-    if (TEST_ENABLE_TRACE) {
-        BIO *trace_bio = BIO_new_fp(stderr, BIO_NOCLOSE | BIO_FP_TEXT);
-        OSSL_trace_set_channel(OSSL_TRACE_CATEGORY_DECODER, trace_bio);
-        /*
-        OSSL_trace_set_prefix(OSSL_TRACE_CATEGORY_DECODER, "BEGIN TRACE DECODER");
-        OSSL_trace_set_suffix(OSSL_TRACE_CATEGORY_DECODER, "END TRACE DECODER");
-        */
-    }
-
-    int trace_enabled = OSSL_trace_enabled(OSSL_TRACE_CATEGORY_DECODER);
-    printf("Trace enabled: %d\n", (trace_enabled) ? 1 : 0);
-
     OSSL_DECODER_CTX *dctx;
     EVP_PKEY *pkey = NULL;
-    int pos = 0, pos2;
 
     dctx = OSSL_DECODER_CTX_new_for_pkey(&pkey, "DER", NULL, NULL, 0, NULL, NULL);
     if (!dctx) {
-        fprintf(stderr, "[DEBUG] OSSL_DECODER_CTX_new_for_pkey DER failed.\n");
+        fprintf(stdout, "[DEBUG] OSSL_DECODER_CTX_new_for_pkey DER failed.\n");
         goto out;
     }
     if (OSSL_DECODER_CTX_set_pem_password_cb(dctx, PEM_def_callback, pass) != 1) {
-        fprintf(stderr, "[DEBUG] OSSL_DECODER_CTX_set_pem_password_cb DER failed.\n");
+        fprintf(stdout, "[DEBUG] OSSL_DECODER_CTX_set_pem_password_cb DER failed.\n");
         goto out;
     }
 
     /* First check DER */
-    fprintf(stderr, "[DEBUG] Calling OSSL_DECODER_from_bio.\n");
+    fprintf(stdout, "[DEBUG] Calling OSSL_DECODER_from_bio.\n");
     if (OSSL_DECODER_from_bio(dctx, bio) == 1) {
-        fprintf(stderr, "[DEBUG] OSSL_DECODER_from_bio DER failed.\n");
+        fprintf(stdout, "[DEBUG] OSSL_DECODER_from_bio DER failed.\n");
         goto out;
     }
     BIO_reset(bio);
 
-    /* Then check PEM; multiple OSSL_DECODER_from_bio() calls may be needed */
     if (OSSL_DECODER_CTX_set_input_type(dctx, "PEM") != 1) {
-        fprintf(stderr, "[DEBUG] OSSL_DECODER_CTX_set_input_type PEM failed.\n");
+        fprintf(stdout, "[DEBUG] OSSL_DECODER_CTX_set_input_type PEM failed.\n");
         goto out;
     }
 
-    fprintf(stderr, "[DEBUG] Calling OSSL_DECODER_CTX_set_selection with PEM and EVP_PKEY_KEYPAIR.\n");
+    fprintf(stdout, "[DEBUG] Calling OSSL_DECODER_CTX_set_selection with PEM and EVP_PKEY_KEYPAIR.\n");
     OSSL_DECODER_CTX_set_selection(dctx, EVP_PKEY_KEYPAIR);
 
-    while (1) {
-        if (OSSL_DECODER_from_bio(dctx, bio) == 1) {
-            fprintf(stderr, "[DEBUG] OSSL_DECODER_from_bio PEM success.\n");
-            goto out;
-        }
-        if (BIO_eof(bio)) {
-            fprintf(stderr, "[DEBUG] BIO_eof break.\n");
-            break;
-        }
-        pos2 = BIO_tell(bio);
-        if (pos2 < 0 || pos2 <= pos) {
-            fprintf(stderr, "[DEBUG] BIO_tell break.\n");
-            break;
-        }
-        ERR_clear_error();
-        pos = pos2;
+    fprintf(stdout, "[DEBUG] Calling OSSL_DECODER_from_bio PEM.\n");
+    if (OSSL_DECODER_from_bio(dctx, bio) == 1) {
+        fprintf(stdout, "[DEBUG] OSSL_DECODER_from_bio PEM success.\n");
+        goto out;
     }
-
-    if (!pkey) {
-        fprintf(stderr, "[DEBUG] Failed to get the pkey.\n");
+    if (BIO_eof(bio)) {
+        fprintf(stdout, "[DEBUG] BIO_eof.\n");
+        goto out;
     }
 out:
     OSSL_DECODER_CTX_free(dctx);
@@ -103,6 +76,20 @@ int main(int argc, char *argv[])
     BIO *bio = NULL;
     BUF_MEM *buf = NULL;
 
+    /* Trace */
+    if (TEST_ENABLE_TRACE) {
+        BIO *trace_bio = BIO_new_fp(stdout, BIO_NOCLOSE | BIO_FP_TEXT);
+        OSSL_trace_set_channel(OSSL_TRACE_CATEGORY_DECODER, trace_bio);
+        /*
+        OSSL_trace_set_prefix(OSSL_TRACE_CATEGORY_DECODER, "BEGIN TRACE DECODER");
+        OSSL_trace_set_suffix(OSSL_TRACE_CATEGORY_DECODER, "END TRACE DECODER");
+        */
+    }
+
+    int trace_enabled = OSSL_trace_enabled(OSSL_TRACE_CATEGORY_DECODER);
+    printf("Trace enabled: %d\n", (trace_enabled) ? 1 : 0);
+
+
     /* Print debugging info for FIPS */
     printf("[DEBUG] Loaded providers:\n");
     OSSL_PROVIDER_do_all(NULL, &print_provider, NULL);
@@ -112,7 +99,7 @@ int main(int argc, char *argv[])
     /* Check if the input file from the first argument is valid. */
     if ((f = fopen(argv[1], "r")) == NULL
         || (data_size = fread(data, 1, sizeof(data), f)) == 0) {
-        fprintf(stderr, "[DEBUG] Could not read PKey: %s\n", argv[1]);
+        fprintf(stdout, "[DEBUG] Could not read PKey: %s\n", argv[1]);
         status = EXIT_FAILURE;
         goto end;
     }
@@ -126,7 +113,7 @@ int main(int argc, char *argv[])
     /* Get Pkey from data. */
     bio = BIO_new_mem_buf(data, strlen(data));
     if (!bio) {
-        fprintf(stderr, "[DEBUG] BIO_new_mem_buf() failed\n");
+        fprintf(stdout, "[DEBUG] BIO_new_mem_buf() failed\n");
         status = EXIT_FAILURE;
         goto end;
     }
@@ -134,7 +121,7 @@ int main(int argc, char *argv[])
     BIO_free(bio);
     bio = NULL;
     if (!pkey) {
-        fprintf(stderr, "[DEBUG] Could not parse a PKey\n");
+        fprintf(stdout, "[DEBUG] Could not parse a PKey\n");
         status = EXIT_FAILURE;
         goto end;
     }
@@ -146,12 +133,12 @@ int main(int argc, char *argv[])
     /* Export Pkey. */
     bio = BIO_new(BIO_s_mem());
     if (!bio) {
-        fprintf(stderr, "BIO_new\n");
+        fprintf(stdout, "BIO_new\n");
         status = EXIT_FAILURE;
         goto end;
     }
     if (!PEM_write_bio_PUBKEY(bio, pkey)) {
-        fprintf(stderr, "PEM_write_bio_PUBKEY\n");
+        fprintf(stdout, "PEM_write_bio_PUBKEY\n");
         status = EXIT_FAILURE;
         goto end;
     }
