@@ -18,6 +18,19 @@ all : $(EXE)
 $(EXE) : $(OBJS)
 	$(CC) $(LDFLAGS) $^ -o $@ $(LIBS)
 
+.PHONY: run-non-fips
+run-non-fips :
+	OPENSSL_CONF_INCLUDE=$(OPENSSL_DIR)/ssl \
+	OPENSSL_MODULES=$(OPENSSL_LIB_DIR)/ossl-modules \
+	./reproducer key.pem
+
+.PHONY: run-fips
+run-fips :
+	OPENSSL_CONF=$(shell pwd)/openssl_fips.cnf \
+	OPENSSL_CONF_INCLUDE=$(OPENSSL_DIR)/ssl \
+	OPENSSL_MODULES=$(OPENSSL_LIB_DIR)/ossl-modules \
+	./reproducer key.pem
+
 .PHONY: clean
 clean :
 	rm -f *.o $(EXE)
