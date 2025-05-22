@@ -2,9 +2,9 @@ CC = gcc
 SRCS = reproducer.c
 OBJS = $(SRCS:.c=.o)
 # Not OK. The openssl version I reported the issue originally.
-OPENSSL_DIR = /home/jaruga/.local/openssl-3.2.0-dev-fips-debug-06a0d40322
+# OPENSSL_DIR = /home/jaruga/.local/openssl-3.2.0-dev-fips-debug-06a0d40322
 # OK. The previous commit before fixing OSSL_DECODER_CTX_set_selection not applying the value.
-# OPENSSL_DIR = /home/jaruga/.local/openssl-3.5.0-dev-fips-debug-054f6c0fc1
+OPENSSL_DIR = /home/jaruga/.local/openssl-3.5.0-dev-fips-debug-054f6c0fc1
 OPENSSL_INC_DIR = $(OPENSSL_DIR)/include
 OPENSSL_LIB_DIR = $(OPENSSL_DIR)/lib
 CFLAGS = -I $(OPENSSL_INC_DIR) -L $(OPENSSL_LIB_DIR) -O0 -g3 -ggdb3 -gdwarf-5
